@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "road-to-500"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "road_to_500"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.1"
+flask = "^2.2.2"
+sqlalchemy = "^1.4.43"
+numpy = "^1.23.4"
+psycopg2-binary = "^2.9.5"
+seaborn = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
